@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6rem 3rem 6rem 3rem;
+  padding: 6rem 0rem 6rem 0rem;
 }
 
 a {
@@ -129,4 +129,37 @@ footer {
   margin-bottom: 4rem;
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+@media only screen and (min-width: 1000px) {
+  footer {
+    font-size: 1.6rem;
+  }
+
+  .feature-card {
+    border-radius: 5px;
+    width: 35rem;
+  }
+
+  .feature-card__container--middle {
+    padding: 0 2rem 0 2rem;
+  }
+
+  .feature-card__container {
+    flex-direction: row;
+  }
+
+  .header {
+    font-size: 3.6rem;
+    width: 500px;
+  }
+
+  .copy-text {
+    font-size: 1.5rem;
+    width: 50rem;
+  }
+
+  .feature-card__text {
+    font-size: 1.3rem;
+  }
 }
